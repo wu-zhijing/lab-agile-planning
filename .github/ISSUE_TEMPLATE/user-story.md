@@ -12,12 +12,13 @@ assignees: ''
  **So that** [benefit]  
    
  ### Details and Assumptions
- * [document what you know]
+ * need a way to increment the counter
+ * need a way to get the current value 
    
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+ Given I have incremented the counter to 2
+ When I make the call the get the current value
+ Then it should return 2 as the counter value 
  ```
